@@ -3,6 +3,11 @@
   */
 object Main {
 
+  def getOutputMessage() : String = {
+    //return hello world
+    "Hello World"
+  }
+
   //displays a string to the screen
   def displayStringToConsole(message: String) : Unit ={
     //display the message
@@ -11,9 +16,7 @@ object Main {
 
   def main(args: Array[String]) : Unit = {
 
-    //defines a string
-    val message : String = "Hello World"
-
-    displayStringToConsole(message)
+    //gets the message from getOutputMessage then display it using displayStringToConsole
+    displayStringToConsole(getOutputMessage())
   }
 }
