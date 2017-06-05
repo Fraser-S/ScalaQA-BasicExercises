@@ -3,6 +3,11 @@
   */
 object Main {
   def main(args: Array[String]) = {
-    println("Hello World")
+
+    //defines a string
+    val message : String = "Hello World"
+
+    //display the message
+    println(message)
   }
 }
